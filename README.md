@@ -46,7 +46,8 @@ git push
 ```
 
 ### 🔹 **8. Adicionar um colaborador ao repositório**  
-- No GitHub, acesse as configurações do repositório e convide seu colega para ser um colaborador.
+- No GitHub, vá até a aba "Settings" > "Collaborators", e convide seu par para acessar o repositório.
+- Seu par deve aceitar o convite e então clonar o repositório em seu computador
 
 ### 🔹 **9. O colaborador clona o repositório e faz alterações**  
 O colaborador deve executar:
@@ -82,7 +83,14 @@ Cada integrante deve gerar um documento (**.docx** ou **.pdf**) contendo:
 
 ---
 
-## 💡 **Dicas de Comandos Git**  
+## 💡 **Dicas e comandos úteis**  
+
+🔹 Configurar o Git com seu nome e e-mail (obrigatório para commits)
+
+```sh
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"
+```
 
 | Comando | Descrição |
 |---------|------------|
